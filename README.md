@@ -9,4 +9,4 @@ Received: 4.67 GiB, Downloaded: 60.64 GiB, Total: 65.31 GiB, Avarege: 38.04 Mbit
 Sample of performance data output
 'received_daily'=4782.08 'downloaded_daily'=62095.36 'total_daily'=66877.44 'avarege_daily'=66877.44 'total_week'=761999.36 'total_month'=5525995.52
 
-rendered
+You can see example of graph rendered by this output attached.
