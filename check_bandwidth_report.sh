@@ -140,4 +140,11 @@ TOTAL_MONTHLY_BANDWIDTH_UNIT=$(vnstat -m | grep `date +%b..%y` | tr -d '|' | awk
 # Final result.
 ##############################################################
 
+#Sample of status information data:
+#Received: 4.67 GiB, Downloaded: 60.64 GiB, Total: 65.31 GiB, Avarege: 38.04 Mbit/s This week: 744.14 GiB This Month: 5.27 TiB
+
+#Sample of performance data output
+#'received_daily'=4782.08 'downloaded_daily'=62095.36 'total_daily'=66877.44 'avarege_daily'=66877.44 'total_week'=761999.36 'total_month'=5525995.52
+
+
 echo "Received: $RX_VALUE $RX_UNIT, Downloaded: $TX_VALUE $TX_UNIT, Total: $TOTAL_VALUE $TOTAL_UNIT, Avarege: $AVG_VALUE $AVG_UNIT This week: $TOTAL_WEEKLY_BANDWIDTH_VALUE $TOTAL_WEEKLY_BANDWIDTH_UNIT This Month: $TOTAL_MONTHLY_BANDWIDTH_VALUE $TOTAL_MONTHLY_BANDWIDTH_UNIT | 'received_daily'=$MRX_VALUE 'downloaded_daily'=$MTX_VALUE 'total_daily'=$MTOTAL_VALUE 'avarege_daily'=$MTOTAL_VALUE 'total_week'=$MTOTAL_WEEKLY_BANDWIDTH_VALUE 'total_month'=$MTOTAL_MONTHLY_BANDWIDTH_VALUE"
