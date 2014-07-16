@@ -8,7 +8,7 @@
 # 
 ##############################################################
 
-#Check if vnstat state installed and cofiguerd.
+#Check if vnStat installed and cofiguerd.
 if [[ -z /usr/bin/vnstat ]] || [[ -z /usr/sbin/vnstat.cron ]]
 then
     echo "Please install "vnstat" first."
