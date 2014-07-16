@@ -4,7 +4,7 @@
 # check_bandwidth_report
 #
 # Simple Nagios check script to monitor and record daily, weekly and monthly bandwidth, using vnstat.
-# By Ahmed M. AbouZaid, 4/3/2014, under BSD license.
+# By Ahmed M. AbouZaid, March 2014, under BSD license.
 # 
 ##############################################################
 
