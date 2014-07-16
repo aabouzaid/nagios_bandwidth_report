@@ -1,3 +1,16 @@
+#! /bin/bash
+
+##############################################################
+# check_bandwidth_report
+#
+# Simple Nagios check script to monitor and record daily, weekly and monthly bandwidth, using vnstat.
+# By Ahmed M. AbouZaid, 4/3/2014, under BSD license.
+# 
+##############################################################
+
+#Check if vnstat state installed and cofiguerd.
+if [[ -z /usr/bin/vnstat ]] || [[ -z /usr/sbin/vnstat.cron ]]
+then
     echo "Please install "vnstat" first."
     exit 2
 fi
